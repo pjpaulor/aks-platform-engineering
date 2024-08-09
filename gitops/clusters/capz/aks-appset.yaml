@@ -32,8 +32,8 @@ spec:
               tenantID: '{{metadata.annotations.tenant_id}}'
               type: WorkloadIdentity
             controlplane:
-              ## Optional SSH public key data (must be valid)
               networkPluginMode: "overlay"
+              ## Optional SSH public key data (must be valid)
               sshPublicKey: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDfi9ye6NYE5Mj4HdYq8rqg35WWRmvkVp8kO/4PD81gjs0gdJKkRhqh/P7HkV/64yRBm3W+pyFqByPKrgz3JjTKSr9TppV0doAtO7MOQH67EPefDUv5HQQey5XvdXMjaFa4n3iMTAgTVD+664+pKo87TyCdFB4ByFt135d/+hB9a5H8PDTyoYn3ndPaJINIIFj9zgsTkoBgr9T801jn1ZPo6LRHdPha3muJt9Emal7V16U71rUOKlexBiuLRkf7/9Wq3dpAFsv3APSYAo0oTv3dVw93Afc3G+24cg3P6vvTYEIxBh1712a6RlZTdPQQYVNwuluTMHIpi12G5ebx4CzBfQusf/ZWZfuEPau1ff9igpgT+6TpEYCA3BwaQ03Nf+v5earUdQW0ExhMBYNdbeP8173YKO1D7ul5CchkL9aWIcnClN0GmNpIzEua2A8TRdSYyXGdzOGifkLmU/jSyCMYuT38d5QOGdv2sH2/WcvNWzO7zI48wBJ+dVOLSJh9svKorgAPVdLgOAisws+FsAN3YFhV3ChuYCMA4c5uxVSXKSg5E4Wch1c2MwZnaDXB+Zp4cesUdvAw7SKUu0ckLjF0MzUX5sFIsZf+YPevnsYE9ROGjAhzmvq0c5c0DrzJCQOqklIYfW4+OCPCKs0Qpay9ECCoWf2/QCc3Sb0e0VrTOw=='
             defaults:
               agentPool:
